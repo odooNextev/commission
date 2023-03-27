@@ -26,7 +26,7 @@ msgstr ""
 
 #. module: sale_commission
 #: code:addons/sale_commission/models/sale_commission_mixin.py:65
-#, fuzzy, python-format
+#, python-format
 msgid "%s commission agents"
 msgstr "Comissió de les vendes"
 
