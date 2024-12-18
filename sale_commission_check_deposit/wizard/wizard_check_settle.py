@@ -1,7 +1,6 @@
 # License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl).
 
 
-import json
 from datetime import date, timedelta
 
 from odoo import models
@@ -25,7 +24,9 @@ class SaleCommissionMakeSettle(models.TransientModel):
         return agent_lines
 
     def get_move_ids(self, payments_widget):
-        account_move_ids = [content["move_id"] for content in payments_widget["content"]]
+        account_move_ids = [
+            content["move_id"] for content in payments_widget["content"]
+        ]
         move_lines = self.env["account.move.line"].search(
             [
                 ("move_id", "in", account_move_ids),

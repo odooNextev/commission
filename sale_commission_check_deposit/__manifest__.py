@@ -5,10 +5,7 @@
     "author": "Nextev Srl," "Odoo Community Association (OCA)",
     "category": "Sales Management",
     "license": "AGPL-3",
-    "depends": [
-        "sale_commission",
-        "account_check_deposit"
-    ],
+    "depends": ["sale_commission", "account_check_deposit"],
     "website": "https://github.com/OCA/commission",
     "data": ["views/account_journal_view.xml"],
     "installable": True,
