@@ -8,7 +8,7 @@ from odoo import models
 
 
 class SaleCommissionMakeSettle(models.TransientModel):
-    _inherit = "sale.commission.make.settle"
+    _inherit = "commission.make.settle"
 
     def _get_agent_lines(self, agent, date_to_agent):
         """
