@@ -1,0 +1,1 @@
+odoo-addon-account_check_deposit @ git+https://github.com/OCA/account-financial-tools.git@refs/pull/1907/head#subdirectory=setup/account_check_deposit

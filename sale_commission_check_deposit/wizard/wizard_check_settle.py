@@ -18,15 +18,14 @@ class SaleCommissionMakeSettle(models.TransientModel):
         agent_lines = super()._get_agent_lines(agent, date_to_agent)
         for line in agent_lines.filtered(
             lambda r: r.commission_id.invoice_state == "paid"
-            and r.invoice_id.invoice_payments_widget != "false"
+            and r.invoice_id.invoice_payments_widget
         ):
             if not self.get_move_ids(line.invoice_id.invoice_payments_widget):
                 agent_lines -= line
         return agent_lines
 
     def get_move_ids(self, payments_widget):
-        move_dict = json.loads(payments_widget)
-        account_move_ids = [content["move_id"] for content in move_dict["content"]]
+        account_move_ids = [content["move_id"] for content in payments_widget["content"]]
         move_lines = self.env["account.move.line"].search(
             [
                 ("move_id", "in", account_move_ids),

@@ -7,6 +7,7 @@
     "license": "AGPL-3",
     "depends": [
         "sale_commission",
+        "account_check_deposit"
     ],
     "website": "https://github.com/OCA/commission",
     "data": ["views/account_journal_view.xml"],
