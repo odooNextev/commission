@@ -23,6 +23,7 @@
         "views/report_settlement_templates.xml",
         "report/commission_analysis_view.xml",
         "wizards/wizard_invoice.xml",
+        "wizards/commission_make_settle_views.xml",
     ],
     "installable": True,
 }
