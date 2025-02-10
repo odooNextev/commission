@@ -18,7 +18,7 @@
                 <div class="page">
                     <h2>Settlement</h2>
                     <t t-if="show_doc_total">
-                        <div class="text-right">
+                        <div class="col-md-12 text-end">
                             <strong>Global commission amount:</strong>
                             <span
                                 t-esc="sum(docs.mapped('total'))"
@@ -26,12 +26,12 @@
                             />
                         </div>
                     </t>
-                    <div id="informations" class="row mt-4 mb-4">
-                        <div class="col-auto col-3 mw-100 mb-2" t-if="o.date_from">
+                    <div id="informations" class="row mt-2">
+                        <div class="col-auto col-3 mw-80 mb-2" t-if="o.date_from">
                             <strong>From:</strong>
                             <p t-field="o.date_from" />
                         </div>
-                        <div class="col-auto col-3 mw-100 mb-2" t-if="o.date_to">
+                        <div class="col-auto col-3 mw-100" t-if="o.date_to">
                             <strong>To:</strong>
                             <p t-field="o.date_to" />
                         </div>
@@ -61,21 +61,28 @@
                             </tr>
                         </tbody>
                     </table>
-                    <div class="clearfix" name="commission_total_summary">
+                    <div
+                        class="clearfix"
+                        name="commission_total_summary"
+                        style="page-break-inside: avoid;"
+                    >
                         <div id="total" class="row" name="total">
-                            <div class="col-6 ml-auto">
-                                <table class="table table-sm">
+                            <div class="col-6 ms-auto text-end">
+                                <table class="table table-sm align-right">
                                     <tr class="border-black o_total">
-                                        <td name="td_amount_total_label"><strong
-                                            >Total</strong> (<span
-                                                t-field="o.date_from"
-                                            /> - <span t-field="o.date_to" />)</td>
-                                        <td class="text-right">
-                                            <span
+                                        <td name="td_amount_total_label">
+                                          <strong>Total</strong>
+                                             <span style="white-space: nowrap;"> (<span
+                                                    t-field="o.date_from"
+                                                /> - <span
+                                                    t-field="o.date_to"
+                                                />)</span>
+                                                <span
+                                                class="ms-6 text-right"
                                                 t-field="o.total"
                                                 t-options="{'widget': 'monetary', 'display_currency': o.currency_id}"
                                             />
-                                        </td>
+                                            </td>
                                     </tr>
                                 </table>
                             </div>
