@@ -4,97 +4,87 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 16.0\n"
+"Project-Id-Version: Odoo Server 17.0\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2024-05-08 17:35+0000\n"
-"Last-Translator: luis-ron <luis.ron@sygel.es>\n"
-"Language-Team: none\n"
-"Language: es\n"
+"Last-Translator: \n"
+"Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.17\n"
+"Plural-Forms: \n"
 
 #. module: commission_oca
 #. odoo-python
 #: code:addons/commission_oca/models/commission_mixin.py:0
 #, python-format
 msgid "%s commission agents"
-msgstr "%s agentes de comisión"
+msgstr ""
 
 #. module: commission_oca
 #: model_terms:ir.ui.view,arch_db:commission_oca.view_settled_wizard
 msgid "(keep empty for making the settlement of all agents)"
-msgstr "(mantener vacío para hacer la liquidación de todos los agentes)"
+msgstr ""
 
 #. module: commission_oca
 #. odoo-python
 #: code:addons/commission_oca/models/commission_mixin.py:0
 #, python-format
 msgid "1 commission agent"
-msgstr "1 agente comisionado"
+msgstr ""
 
 #. module: commission_oca
 #: model_terms:ir.ui.view,arch_db:commission_oca.view_settled_wizard
 msgid ""
 "<span>\n"
-"                        No automatic settlements can be made. Install any "
-"extra\n"
+"                        No automatic settlements can be made. Install any extra\n"
 "                        commission module for having this feature enabled.\n"
 "                    </span>"
 msgstr ""
-"<span>\n"
-"                        No se pueden realizar liquidaciones automáticas. "
-"Instale cualquier\n"
-"                        módulo de comisión adicional para tener esta función "
-"activada.\n"
-"                    </span>"
 
 #. module: commission_oca
 #: model_terms:ir.ui.view,arch_db:commission_oca.report_settlement_document
 msgid "<strong>From:</strong>"
-msgstr "<strong>De:</strong>"
+msgstr ""
 
 #. module: commission_oca
 #: model_terms:ir.ui.view,arch_db:commission_oca.report_settlement_document
 msgid "<strong>To:</strong>"
-msgstr "<strong>Para:</strong>"
+msgstr ""
 
 #. module: commission_oca
 #: model_terms:ir.ui.view,arch_db:commission_oca.report_settlement_document
 msgid "<strong>Total</strong>"
-msgstr "<strong>Total</strong>"
+msgstr ""
 
 #. module: commission_oca
 #: model:ir.model.fields,field_description:commission_oca.field_commission_settlement__message_needaction
 msgid "Action Needed"
-msgstr "Necesita Acción"
+msgstr ""
 
 #. module: commission_oca
 #: model:ir.model.fields,field_description:commission_oca.field_commission__active
 msgid "Active"
-msgstr "Activo"
+msgstr ""
 
 #. module: commission_oca
 #: model:ir.model.fields,field_description:commission_oca.field_commission_settlement__activity_ids
 msgid "Activities"
-msgstr "Actividades"
+msgstr ""
 
 #. module: commission_oca
 #: model:ir.model.fields,field_description:commission_oca.field_commission_settlement__activity_exception_decoration
 msgid "Activity Exception Decoration"
-msgstr "Decoración de Actividad de Excepción"
+msgstr ""
 
 #. module: commission_oca
 #: model:ir.model.fields,field_description:commission_oca.field_commission_settlement__activity_state
 msgid "Activity State"
-msgstr "Estado de la Actividad"
+msgstr ""
 
 #. module: commission_oca
 #: model:ir.model.fields,field_description:commission_oca.field_commission_settlement__activity_type_icon
 msgid "Activity Type Icon"
-msgstr "Icono de Tipo de Actividad"
+msgstr ""
 
 #. module: commission_oca
 #: model:ir.model.fields,field_description:commission_oca.field_commission_line_mixin__agent_id
@@ -105,17 +95,17 @@ msgstr "Icono de Tipo de Actividad"
 #: model_terms:ir.ui.view,arch_db:commission_oca.view_settlement_line_search
 #: model_terms:ir.ui.view,arch_db:commission_oca.view_settlement_search
 msgid "Agent"
-msgstr "Agente"
+msgstr ""
 
 #. module: commission_oca
 #: model_terms:ir.ui.view,arch_db:commission_oca.res_partner_view_search
 msgid "Agent Partners"
-msgstr "Agentes Asociados"
+msgstr ""
 
 #. module: commission_oca
 #: model_terms:ir.ui.view,arch_db:commission_oca.view_partner_form_agent
 msgid "Agent information"
-msgstr "Información del agente"
+msgstr ""
 
 #. module: commission_oca
 #. odoo-python
@@ -128,84 +118,84 @@ msgstr "Información del agente"
 #: model_terms:ir.ui.view,arch_db:commission_oca.view_settled_wizard
 #, python-format
 msgid "Agents"
-msgstr "Agentes"
+msgstr ""
 
 #. module: commission_oca
 #: model:ir.model.fields,field_description:commission_oca.field_commission_mixin__agent_ids
 msgid "Agents & commissions"
-msgstr "Agentes & comisiones"
+msgstr ""
 
 #. module: commission_oca
 #: model:ir.model.fields,help:commission_oca.field_commission_mixin__agent_ids
 msgid "Agents/Commissions related to the invoice line."
-msgstr "Agentes/Comisiones relacionados con la línea de factura."
+msgstr ""
 
 #. module: commission_oca
 #: model:ir.module.category,description:commission_oca.module_category_commission
 msgid "Allows to handle commission related stuff."
-msgstr "Permite gestionar asuntos relacionados con las comisiones."
+msgstr ""
 
 #. module: commission_oca
 #: model_terms:ir.ui.view,arch_db:commission_oca.report_settlement_document
 msgid "Amount settled"
-msgstr "Importe liquidado"
+msgstr ""
 
 #. module: commission_oca
 #: model:ir.model.fields.selection,name:commission_oca.selection__res_partner__settlement__annual
 msgid "Annual"
-msgstr "Anual"
+msgstr ""
 
 #. module: commission_oca
 #: model_terms:ir.ui.view,arch_db:commission_oca.commission_form
 msgid "Archived"
-msgstr "Archivado"
+msgstr ""
 
 #. module: commission_oca
 #: model:ir.model.fields,field_description:commission_oca.field_commission_settlement__message_attachment_count
 msgid "Attachment Count"
-msgstr "Recuento de Archivos Adjuntos"
+msgstr ""
 
 #. module: commission_oca
 #: model:ir.model.fields,field_description:commission_oca.field_commission__amount_base_type
 msgid "Base"
-msgstr "Base/Fuente"
+msgstr ""
 
 #. module: commission_oca
 #: model:ir.model.fields.selection,name:commission_oca.selection__res_partner__settlement__biweekly
 msgid "Bi-weekly"
-msgstr "Bi-semanal"
+msgstr ""
 
 #. module: commission_oca
 #: model:ir.model.fields.selection,name:commission_oca.selection__commission__commission_type__section
 msgid "By sections"
-msgstr "Por secciones"
+msgstr ""
 
 #. module: commission_oca
 #: model:ir.model.fields,field_description:commission_oca.field_commission_settlement__can_edit
 msgid "Can Edit"
-msgstr "Puede Editar"
+msgstr ""
 
 #. module: commission_oca
 #: model:ir.model.fields,field_description:commission_oca.field_commission_make_settle__can_settle
 msgid "Can Settle"
-msgstr "Puede Liquidar"
+msgstr ""
 
 #. module: commission_oca
 #: model_terms:ir.ui.view,arch_db:commission_oca.view_settled_wizard
 #: model_terms:ir.ui.view,arch_db:commission_oca.view_settlement_form
 msgid "Cancel"
-msgstr "Cancelar"
+msgstr ""
 
 #. module: commission_oca
 #: model:ir.model.fields.selection,name:commission_oca.selection__commission_settlement__state__cancel
 msgid "Canceled"
-msgstr "Cancelado"
+msgstr ""
 
 #. module: commission_oca
 #: model:ir.model.fields,help:commission_oca.field_res_partner__agent
 #: model:ir.model.fields,help:commission_oca.field_res_users__agent
 msgid "Check this field if the partner is a creditor or an agent."
-msgstr "Marque este campo si el socio es acreedor o un agente."
+msgstr ""
 
 #. module: commission_oca
 #. odoo-python
@@ -213,7 +203,7 @@ msgstr "Marque este campo si el socio es acreedor o un agente."
 #: model:ir.model.fields,field_description:commission_oca.field_commission_mixin__commission_free
 #, python-format
 msgid "Comm. free"
-msgstr "Libre de comisión"
+msgstr ""
 
 #. module: commission_oca
 #: model:ir.model,name:commission_oca.model_commission
@@ -226,57 +216,57 @@ msgstr "Libre de comisión"
 #: model_terms:ir.ui.view,arch_db:commission_oca.commission_form
 #: model_terms:ir.ui.view,arch_db:commission_oca.report_settlement_document
 msgid "Commission"
-msgstr "Comisión"
+msgstr ""
 
 #. module: commission_oca
 #: model:ir.model.fields,field_description:commission_oca.field_commission_line_mixin__amount
 msgid "Commission Amount"
-msgstr "Importe de la Comisión"
+msgstr ""
 
 #. module: commission_oca
 #: model_terms:ir.ui.view,arch_db:commission_oca.view_settlement_form
 msgid "Commission lines"
-msgstr "Líneas de comisión"
+msgstr ""
 
 #. module: commission_oca
 #: model:ir.model,name:commission_oca.model_commission_section
 msgid "Commission section"
-msgstr "Sección de comisión"
+msgstr ""
 
 #. module: commission_oca
 #: model:ir.actions.act_window,name:commission_oca.action_commission
 #: model:ir.ui.menu,name:commission_oca.menu_commission_type
 msgid "Commission types"
-msgstr "Tipos de comisión"
+msgstr ""
 
 #. module: commission_oca
 #: model:ir.module.category,name:commission_oca.module_category_commission
 #: model:ir.ui.menu,name:commission_oca.menu_commission
 msgid "Commissions"
-msgstr "Comisiones"
+msgstr ""
 
 #. module: commission_oca
 #: model:ir.model.fields,field_description:commission_oca.field_commission_settlement__company_id
 #: model:ir.model.fields,field_description:commission_oca.field_commission_settlement_line__company_id
 msgid "Company"
-msgstr "Compañía"
+msgstr ""
 
 #. module: commission_oca
 #: model:ir.ui.menu,name:commission_oca.menu_commission_management
 msgid "Configuration"
-msgstr "Configuración"
+msgstr ""
 
 #. module: commission_oca
 #: model:ir.model,name:commission_oca.model_res_partner
 msgid "Contact"
-msgstr "Contacto"
+msgstr ""
 
 #. module: commission_oca
 #. odoo-python
 #: code:addons/commission_oca/wizards/commission_make_settle.py:0
 #, python-format
 msgid "Created Settlements"
-msgstr "Liquidaciones creadas"
+msgstr ""
 
 #. module: commission_oca
 #: model:ir.model.fields,field_description:commission_oca.field_commission__create_uid
@@ -285,7 +275,7 @@ msgstr "Liquidaciones creadas"
 #: model:ir.model.fields,field_description:commission_oca.field_commission_settlement__create_uid
 #: model:ir.model.fields,field_description:commission_oca.field_commission_settlement_line__create_uid
 msgid "Created by"
-msgstr "Creado por"
+msgstr ""
 
 #. module: commission_oca
 #: model:ir.model.fields,field_description:commission_oca.field_commission__create_date
@@ -294,41 +284,41 @@ msgstr "Creado por"
 #: model:ir.model.fields,field_description:commission_oca.field_commission_settlement__create_date
 #: model:ir.model.fields,field_description:commission_oca.field_commission_settlement_line__create_date
 msgid "Created on"
-msgstr "Creado el"
+msgstr ""
 
 #. module: commission_oca
 #: model:ir.model.fields,field_description:commission_oca.field_res_partner__agent
 #: model:ir.model.fields,field_description:commission_oca.field_res_users__agent
 msgid "Creditor/Agent"
-msgstr "Acreedor/Agente"
+msgstr ""
 
 #. module: commission_oca
 #: model:ir.model.fields,field_description:commission_oca.field_commission_line_mixin__currency_id
 #: model:ir.model.fields,field_description:commission_oca.field_commission_settlement__currency_id
 #: model:ir.model.fields,field_description:commission_oca.field_commission_settlement_line__currency_id
 msgid "Currency"
-msgstr "Divisa"
+msgstr ""
 
 #. module: commission_oca
 #: model:ir.model.fields,field_description:commission_oca.field_commission_settlement_line__date
 #: model_terms:ir.ui.view,arch_db:commission_oca.report_settlement_document
 msgid "Date"
-msgstr "Fecha"
+msgstr ""
 
 #. module: commission_oca
 #: model_terms:ir.ui.view,arch_db:commission_oca.view_settlement_search
 msgid "Date from month"
-msgstr "Fecha del mes"
+msgstr ""
 
 #. module: commission_oca
 #: model_terms:ir.ui.view,arch_db:commission_oca.view_settlement_line_search
 msgid "Date month"
-msgstr "Fecha mes"
+msgstr ""
 
 #. module: commission_oca
 #: model_terms:ir.ui.view,arch_db:commission_oca.view_commission_mixin_agent_only
 msgid "Discard"
-msgstr "Descartar"
+msgstr ""
 
 #. module: commission_oca
 #: model:ir.model.fields,field_description:commission_oca.field_commission__display_name
@@ -337,61 +327,61 @@ msgstr "Descartar"
 #: model:ir.model.fields,field_description:commission_oca.field_commission_settlement__display_name
 #: model:ir.model.fields,field_description:commission_oca.field_commission_settlement_line__display_name
 msgid "Display Name"
-msgstr "Mostrar Nombre"
+msgstr ""
 
 #. module: commission_oca
 #: model:ir.model.fields.selection,name:commission_oca.selection__res_partner__agent_type__agent
 msgid "External agent"
-msgstr "Agente externo"
+msgstr ""
 
 #. module: commission_oca
 #: model:ir.model.fields,field_description:commission_oca.field_commission__fix_qty
 #: model:ir.model.fields.selection,name:commission_oca.selection__commission__commission_type__fixed
 msgid "Fixed percentage"
-msgstr "Porcentaje fijo"
+msgstr ""
 
 #. module: commission_oca
 #: model:ir.model.fields,field_description:commission_oca.field_commission_settlement__message_follower_ids
 msgid "Followers"
-msgstr "Seguidores/as"
+msgstr ""
 
 #. module: commission_oca
 #: model:ir.model.fields,field_description:commission_oca.field_commission_settlement__message_partner_ids
 msgid "Followers (Partners)"
-msgstr "Seguidores (Socios)"
+msgstr ""
 
 #. module: commission_oca
 #: model:ir.model.fields,help:commission_oca.field_commission_settlement__activity_type_icon
 msgid "Font awesome icon e.g. fa-tasks"
-msgstr "Icono de fuente impresionante, por ejemplo fa-tasks"
+msgstr ""
 
 #. module: commission_oca
 #: model:ir.model.fields,field_description:commission_oca.field_product_product__commission_free
 #: model:ir.model.fields,field_description:commission_oca.field_product_template__commission_free
 msgid "Free of commission"
-msgstr "Libre de comisión"
+msgstr ""
 
 #. module: commission_oca
 #: model:ir.model.fields,field_description:commission_oca.field_commission_section__amount_from
 #: model:ir.model.fields,field_description:commission_oca.field_commission_settlement__date_from
 msgid "From"
-msgstr "Desde"
+msgstr ""
 
 #. module: commission_oca
 #: model_terms:ir.ui.view,arch_db:commission_oca.commission_form
 msgid "General information"
-msgstr "Información general"
+msgstr ""
 
 #. module: commission_oca
 #: model_terms:ir.ui.view,arch_db:commission_oca.view_settlement_line_search
 #: model_terms:ir.ui.view,arch_db:commission_oca.view_settlement_search
 msgid "Group By"
-msgstr "Agrupado Por"
+msgstr ""
 
 #. module: commission_oca
 #: model:ir.model.fields,field_description:commission_oca.field_commission_settlement__has_message
 msgid "Has Message"
-msgstr "Tiene Mensaje"
+msgstr ""
 
 #. module: commission_oca
 #: model:ir.model.fields,field_description:commission_oca.field_commission__id
@@ -400,32 +390,32 @@ msgstr "Tiene Mensaje"
 #: model:ir.model.fields,field_description:commission_oca.field_commission_settlement__id
 #: model:ir.model.fields,field_description:commission_oca.field_commission_settlement_line__id
 msgid "ID"
-msgstr "ID (identificación)"
+msgstr ""
 
 #. module: commission_oca
 #: model:ir.model.fields,field_description:commission_oca.field_commission_settlement__activity_exception_icon
 msgid "Icon"
-msgstr "Icono"
+msgstr ""
 
 #. module: commission_oca
 #: model:ir.model.fields,help:commission_oca.field_commission_settlement__activity_exception_icon
 msgid "Icon to indicate an exception activity."
-msgstr "Icono para indicar una actividad por excepción."
+msgstr ""
 
 #. module: commission_oca
 #: model:ir.model.fields,help:commission_oca.field_commission_settlement__message_needaction
 msgid "If checked, new messages require your attention."
-msgstr "Si está marcada, nuevos mensajes requieren su atención."
+msgstr ""
 
 #. module: commission_oca
 #: model:ir.model.fields,help:commission_oca.field_commission_settlement__message_has_error
 msgid "If checked, some messages have a delivery error."
-msgstr "Si está marcada, algunos mensajes tienen un error de entrega."
+msgstr ""
 
 #. module: commission_oca
 #: model:ir.model.fields,field_description:commission_oca.field_commission_settlement__message_is_follower
 msgid "Is Follower"
-msgstr "Es Seguidor/a"
+msgstr ""
 
 #. module: commission_oca
 #: model:ir.model.fields,field_description:commission_oca.field_commission__write_uid
@@ -434,7 +424,7 @@ msgstr "Es Seguidor/a"
 #: model:ir.model.fields,field_description:commission_oca.field_commission_settlement__write_uid
 #: model:ir.model.fields,field_description:commission_oca.field_commission_settlement_line__write_uid
 msgid "Last Updated by"
-msgstr "Actualizado por última vez por"
+msgstr ""
 
 #. module: commission_oca
 #: model:ir.model.fields,field_description:commission_oca.field_commission__write_date
@@ -443,49 +433,48 @@ msgstr "Actualizado por última vez por"
 #: model:ir.model.fields,field_description:commission_oca.field_commission_settlement__write_date
 #: model:ir.model.fields,field_description:commission_oca.field_commission_settlement_line__write_date
 msgid "Last Updated on"
-msgstr "Última Actualización el"
+msgstr ""
 
 #. module: commission_oca
 #: model:ir.model,name:commission_oca.model_commission_settlement_line
 msgid "Line of a commission settlement"
-msgstr "Línea de liquidación de una comisión"
+msgstr ""
 
 #. module: commission_oca
 #: model_terms:ir.ui.view,arch_db:commission_oca.view_settled_wizard
 msgid "Make settlements"
-msgstr "Hacer liquidaciones"
+msgstr ""
 
 #. module: commission_oca
 #: model:res.groups,name:commission_oca.group_commission_manager
 msgid "Manager"
-msgstr "Gerente"
+msgstr ""
 
 #. module: commission_oca
 #: model:ir.model.fields.selection,name:commission_oca.selection__commission_settlement__settlement_type__manual
 msgid "Manual"
-msgstr "Manual"
+msgstr ""
 
 #. module: commission_oca
 #: model:ir.model.fields.selection,name:commission_oca.selection__commission__amount_base_type__net_amount
 msgid "Margin (Amount - Cost)"
-msgstr "Margen (Importe - Coste)"
+msgstr ""
 
 #. module: commission_oca
 #: model:ir.model.fields,field_description:commission_oca.field_commission_settlement__message_has_error
 msgid "Message Delivery error"
-msgstr "Error en entrega de mensaje"
+msgstr ""
 
 #. module: commission_oca
 #: model:ir.model.fields,field_description:commission_oca.field_commission_settlement__message_ids
 msgid "Messages"
-msgstr "Mensajes"
+msgstr ""
 
 #. module: commission_oca
 #: model:ir.model,name:commission_oca.model_commission_mixin
-msgid "Mixin model for applying to any object that wants to handle commissions"
+msgid ""
+"Mixin model for applying to any object that wants to handle commissions"
 msgstr ""
-"Modelo de mezclador para aplicar a cualquier objeto que quiera gestionar "
-"comisiones"
 
 #. module: commission_oca
 #: model:ir.model,name:commission_oca.model_commission_line_mixin
@@ -493,181 +482,164 @@ msgid ""
 "Mixin model for having commission agent lines in any object inheriting from "
 "this one"
 msgstr ""
-"Modelo de mezclador para tener líneas de comisionista en cualquier objeto "
-"que herede de éste"
 
 #. module: commission_oca
 #: model:ir.model.fields.selection,name:commission_oca.selection__res_partner__settlement__monthly
 msgid "Monthly"
-msgstr "Mensualmente"
+msgstr ""
 
 #. module: commission_oca
 #: model:ir.model.fields,field_description:commission_oca.field_commission_settlement__my_activity_date_deadline
 msgid "My Activity Deadline"
-msgstr "Fecha Límite de mi Actividad"
+msgstr ""
 
 #. module: commission_oca
 #: model:ir.model.fields,field_description:commission_oca.field_commission__name
 #: model:ir.model.fields,field_description:commission_oca.field_commission_settlement__name
 msgid "Name"
-msgstr "Nombre"
+msgstr ""
 
 #. module: commission_oca
 #: model:ir.model.fields,field_description:commission_oca.field_commission_settlement__activity_date_deadline
 msgid "Next Activity Deadline"
-msgstr "Fecha Límite para la siguiente Actividad"
+msgstr ""
 
 #. module: commission_oca
 #: model:ir.model.fields,field_description:commission_oca.field_commission_settlement__activity_summary
 msgid "Next Activity Summary"
-msgstr "Resumen de la Siguiente Actividad"
+msgstr ""
 
 #. module: commission_oca
 #: model:ir.model.fields,field_description:commission_oca.field_commission_settlement__activity_type_id
 msgid "Next Activity Type"
-msgstr "Tipo de la Siguiente Actividad"
+msgstr ""
 
 #. module: commission_oca
 #. odoo-python
 #: code:addons/commission_oca/models/commission_mixin.py:0
 #, python-format
 msgid "No commission agents"
-msgstr "Agentes sin comisión"
+msgstr ""
 
 #. module: commission_oca
 #: model:ir.model.fields,field_description:commission_oca.field_commission_settlement__message_needaction_counter
 msgid "Number of Actions"
-msgstr "Número de acciones"
+msgstr ""
 
 #. module: commission_oca
 #: model:ir.model.fields,field_description:commission_oca.field_commission_settlement__message_has_error_counter
 msgid "Number of errors"
-msgstr "Número de errores"
+msgstr ""
 
 #. module: commission_oca
 #: model:ir.model.fields,help:commission_oca.field_commission_settlement__message_needaction_counter
 msgid "Number of messages requiring action"
-msgstr "Número de mensajes que requieren una acción"
+msgstr ""
 
 #. module: commission_oca
 #: model:ir.model.fields,help:commission_oca.field_commission_settlement__message_has_error_counter
 msgid "Number of messages with delivery error"
-msgstr "Número de mensajes con error de entrega"
+msgstr ""
 
 #. module: commission_oca
 #: model:ir.model.fields,field_description:commission_oca.field_commission_line_mixin__object_id
 msgid "Parent"
-msgstr "Parental"
+msgstr ""
 
 #. module: commission_oca
 #: model:ir.model.fields,field_description:commission_oca.field_commission_section__percent
 msgid "Percent"
-msgstr "Porcentaje"
+msgstr ""
 
 #. module: commission_oca
 #: model:ir.model,name:commission_oca.model_product_template
 #: model:ir.model.fields,field_description:commission_oca.field_commission_mixin__product_id
 msgid "Product"
-msgstr "Producto"
+msgstr ""
 
 #. module: commission_oca
 #: model:ir.model.fields.selection,name:commission_oca.selection__res_partner__settlement__quaterly
 msgid "Quarterly"
-msgstr "Trimestral"
+msgstr ""
 
 #. module: commission_oca
 #: model_terms:ir.ui.view,arch_db:commission_oca.commission_form
 msgid "Rates definition"
-msgstr "Definición de tarifas"
+msgstr ""
 
 #. module: commission_oca
 #: model:ir.model.fields,field_description:commission_oca.field_commission_settlement__activity_user_id
 msgid "Responsible User"
-msgstr "Usuario Responsable"
+msgstr ""
 
 #. module: commission_oca
 #: model:ir.model.fields.selection,name:commission_oca.selection__commission__amount_base_type__gross_amount
 msgid "Sale/Invoice Amount"
-msgstr "Importe de la Venta / Factura"
+msgstr ""
 
 #. module: commission_oca
 #: model_terms:ir.ui.view,arch_db:commission_oca.view_commission_mixin_agent_only
 msgid "Save"
-msgstr "Guardar"
+msgstr ""
 
 #. module: commission_oca
 #: model:ir.model.fields,field_description:commission_oca.field_commission__section_ids
 msgid "Sections"
-msgstr "Secciones"
+msgstr ""
 
 #. module: commission_oca
 #: model:ir.model.fields,help:commission_oca.field_commission__amount_base_type
 msgid ""
 "Select the base amount for computing the percentage:\n"
-"* 'Sale/Invoice Amount': percentage is computed from the amount put on sales "
-"order/invoice.\n"
-"* 'Margin (Amount - Cost)': percentage is computed from the profit only, "
-"taken the cost from the product."
+"* 'Sale/Invoice Amount': percentage is computed from the amount put on sales order/invoice.\n"
+"* 'Margin (Amount - Cost)': percentage is computed from the profit only, taken the cost from the product."
 msgstr ""
-"Seleccione el importe base para calcular el porcentaje:\n"
-"* 'Importe Venta/Factura': el porcentaje se computa a partir del importe "
-"puesto en la orden de venta/factura.\n"
-"* Margen (Importe - Coste)\": el porcentaje se calcula únicamente a partir "
-"del beneficio, teniendo en cuenta el coste del producto."
 
 #. module: commission_oca
 #: model_terms:ir.ui.view,arch_db:commission_oca.view_settled_wizard
 msgid "Select the date up to which you want to make the settlements:"
-msgstr "Seleccione la fecha hasta la que desea realizar las liquidaciones:"
+msgstr ""
 
 #. module: commission_oca
 #: model:ir.model.fields,help:commission_oca.field_commission__commission_type
 msgid ""
 "Select the percentage type of the commission:\n"
-"* 'Fixed percentage': all commissions are computed with a fixed percentage. "
-"You can fill the percentage in the field \"Fixed percentage\".\n"
-"* 'By sections': percentage varies depending amount intervals. You can fill "
-"intervals and percentages in the section \"Rate definition\"."
+"* 'Fixed percentage': all commissions are computed with a fixed percentage. You can fill the percentage in the field \"Fixed percentage\".\n"
+"* 'By sections': percentage varies depending amount intervals. You can fill intervals and percentages in the section \"Rate definition\"."
 msgstr ""
-"Seleccione el tipo de porcentaje de la comisión:\n"
-"* \"Porcentaje fijo\": todas las comisiones se computan con un porcentaje "
-"fijo. Puede rellenar el porcentaje en el campo \"Porcentaje fijo\".\n"
-"* 'Por tramos': el porcentaje varía en función de los intervalos de importe. "
-"Puede rellenar los intervalos y porcentajes en el apartado \"Definición de "
-"la tarifa\"."
 
 #. module: commission_oca
 #: model:ir.model.fields.selection,name:commission_oca.selection__res_partner__settlement__semi
 msgid "Semi-annual"
-msgstr "Semi-anual"
+msgstr ""
 
 #. module: commission_oca
 #: model:ir.actions.act_window,name:commission_oca.action_agents_settlement
 #: model:ir.ui.menu,name:commission_oca.menu_commission_make_settle
 msgid "Settle Commissions"
-msgstr "Liquidar Comisiones"
+msgstr ""
 
 #. module: commission_oca
 #: model_terms:ir.ui.view,arch_db:commission_oca.view_settled_wizard
 msgid "Settle commissions"
-msgstr "Liquidar Comisiones"
+msgstr ""
 
 #. module: commission_oca
 #: model:ir.model.fields.selection,name:commission_oca.selection__commission_settlement__state__settled
 msgid "Settled"
-msgstr "Liquidado"
+msgstr ""
 
 #. module: commission_oca
 #: model:ir.model.fields,field_description:commission_oca.field_commission_settlement_line__settled_amount
 msgid "Settled Amount"
-msgstr "Importe Liquidado"
+msgstr ""
 
 #. module: commission_oca
 #: model_terms:ir.ui.view,arch_db:commission_oca.view_partner_form_agent
 #: model_terms:ir.ui.view,arch_db:commission_oca.view_settlement_line_tree
 #: model_terms:ir.ui.view,arch_db:commission_oca.view_settlement_tree
 msgid "Settled total"
-msgstr "Total liquidado"
+msgstr ""
 
 #. module: commission_oca
 #: model:ir.model,name:commission_oca.model_commission_settlement
@@ -677,45 +649,45 @@ msgstr "Total liquidado"
 #: model_terms:ir.ui.view,arch_db:commission_oca.report_settlement_document
 #: model_terms:ir.ui.view,arch_db:commission_oca.view_settlement_form
 msgid "Settlement"
-msgstr "Liquidación"
+msgstr ""
 
 #. module: commission_oca
 #: model:ir.model.fields,field_description:commission_oca.field_commission__settlement_type
 #: model:ir.model.fields,field_description:commission_oca.field_commission_make_settle__settlement_type
 #: model:ir.model.fields,field_description:commission_oca.field_commission_settlement__settlement_type
 msgid "Settlement Type"
-msgstr "Tipo de liquidación"
+msgstr ""
 
 #. module: commission_oca
 #: model_terms:ir.ui.view,arch_db:commission_oca.view_settlement_line_graph
 msgid "Settlement analysis"
-msgstr "Análisis de liquidación"
+msgstr ""
 
 #. module: commission_oca
 #: model:ir.model.fields,field_description:commission_oca.field_commission_settlement__line_ids
 msgid "Settlement lines"
-msgstr "Líneas de liquidación"
+msgstr ""
 
 #. module: commission_oca
 #: model_terms:ir.ui.view,arch_db:commission_oca.view_settlement_line_search
 msgid "Settlement lines search"
-msgstr "Búsqueda de líneas de liquidación"
+msgstr ""
 
 #. module: commission_oca
 #: model:ir.model.fields,field_description:commission_oca.field_res_partner__settlement
 #: model:ir.model.fields,field_description:commission_oca.field_res_users__settlement
 msgid "Settlement period"
-msgstr "Período de liquidación"
+msgstr ""
 
 #. module: commission_oca
 #: model:ir.actions.report,name:commission_oca.action_report_settlement
 msgid "Settlement report"
-msgstr "Informe de liquidación"
+msgstr ""
 
 #. module: commission_oca
 #: model_terms:ir.ui.view,arch_db:commission_oca.view_settlement_search
 msgid "Settlement search"
-msgstr "Búsqueda de liquidación"
+msgstr ""
 
 #. module: commission_oca
 #: model:ir.actions.act_window,name:commission_oca.action_commission_settlement
@@ -723,12 +695,12 @@ msgstr "Búsqueda de liquidación"
 #: model:ir.ui.menu,name:commission_oca.menu_settlement_parent
 #: model_terms:ir.ui.view,arch_db:commission_oca.view_partner_form_agent
 msgid "Settlements"
-msgstr "Liquidaciones"
+msgstr ""
 
 #. module: commission_oca
 #: model:ir.model.fields,field_description:commission_oca.field_commission_settlement__state
 msgid "State"
-msgstr "Estado"
+msgstr ""
 
 #. module: commission_oca
 #: model:ir.model.fields,help:commission_oca.field_commission_settlement__activity_state
@@ -738,39 +710,31 @@ msgid ""
 "Today: Activity date is today\n"
 "Planned: Future activities."
 msgstr ""
-"Estados basados en actividades\n"
-"Retrasada: La fecha límite ya ha pasado\n"
-"Hoy: La fecha límite de la actividad es hoy\n"
-"Futuras: Actividades futuras."
 
 #. module: commission_oca
 #: model:ir.model.fields,help:commission_oca.field_commission_settlement__can_edit
 msgid "Technical field for determining if user can edit settlements"
-msgstr "Campo técnico para determinar si el usuario puede editar liquidaciones"
+msgstr ""
 
 #. module: commission_oca
 #: model:ir.model.fields,help:commission_oca.field_commission_make_settle__can_settle
 msgid ""
 "Technical field for improving UX when no extra *commission is installed."
 msgstr ""
-"Campo técnico para mejorar la UX cuando no se instala ninguna *comisión "
-"adicional."
 
 #. module: commission_oca
 #. odoo-python
 #: code:addons/commission_oca/models/commission.py:0
 #, python-format
 msgid "The lower limit cannot be greater than upper one."
-msgstr "El límite inferior no puede ser mayor que el superior."
+msgstr ""
 
 #. module: commission_oca
 #: model:ir.model.fields,help:commission_oca.field_commission_settlement__settlement_type
 msgid ""
-"The source of the settlement, e.g. 'Sales invoice', 'Sales order', 'Purchase "
-"order'..."
+"The source of the settlement, e.g. 'Sales invoice', 'Sales order', 'Purchase"
+" order'..."
 msgstr ""
-"El origen de la liquidación, por ejemplo, 'Factura de venta','Pedido de "
-"venta', 'Pedido de compra'..."
 
 #. module: commission_oca
 #: model:ir.model.fields,help:commission_oca.field_res_partner__commission_id
@@ -779,25 +743,23 @@ msgid ""
 "This is the default commission used in the sales where this agent is "
 "assigned. It can be changed on each operation if needed."
 msgstr ""
-"Esta es la comisión por defecto utilizada en las ventas donde este agente "
-"está asignado. Se puede cambiar en cada operación si es necesario."
 
 #. module: commission_oca
 #: model_terms:ir.ui.view,arch_db:commission_oca.view_settlement_line_search
 #: model_terms:ir.ui.view,arch_db:commission_oca.view_settlement_search
 msgid "This year"
-msgstr "Este año"
+msgstr ""
 
 #. module: commission_oca
 #: model:ir.model.fields,field_description:commission_oca.field_commission_section__amount_to
 #: model:ir.model.fields,field_description:commission_oca.field_commission_settlement__date_to
 msgid "To"
-msgstr "Hasta"
+msgstr ""
 
 #. module: commission_oca
 #: model:ir.model.fields,field_description:commission_oca.field_commission_settlement__total
 msgid "Total"
-msgstr "Total"
+msgstr ""
 
 #. module: commission_oca
 #: model:ir.model.fields,field_description:commission_oca.field_commission__commission_type
@@ -805,61 +767,46 @@ msgstr "Total"
 #: model:ir.model.fields,field_description:commission_oca.field_res_partner__agent_type
 #: model:ir.model.fields,field_description:commission_oca.field_res_users__agent_type
 msgid "Type"
-msgstr "Tipo"
+msgstr ""
 
 #. module: commission_oca
 #: model:ir.model.fields,help:commission_oca.field_commission_settlement__activity_exception_decoration
 msgid "Type of the exception activity on record."
-msgstr "Tipo (o clase) de actividad excepcional registrada."
+msgstr ""
 
 #. module: commission_oca
 #: model:ir.model.fields,field_description:commission_oca.field_commission_make_settle__date_to
 msgid "Up to"
-msgstr "Hasta el"
+msgstr ""
 
 #. module: commission_oca
 #: model:res.groups,name:commission_oca.group_commission_user
 msgid "User"
-msgstr "Usuario"
+msgstr ""
 
 #. module: commission_oca
 #: model:ir.model.fields,field_description:commission_oca.field_commission_settlement__website_message_ids
 msgid "Website Messages"
-msgstr "Mensajes de la Página Web"
+msgstr ""
 
 #. module: commission_oca
 #: model:ir.model.fields,help:commission_oca.field_commission_settlement__website_message_ids
 msgid "Website communication history"
-msgstr "Historial de la comunicación en la página web"
+msgstr ""
 
 #. module: commission_oca
 #: model:ir.model,name:commission_oca.model_commission_make_settle
 msgid "Wizard for settling commissions"
-msgstr "Asistente para liquidación de comisiones"
+msgstr ""
 
 #. module: commission_oca
 #: model:ir.model.constraint,message:commission_oca.constraint_account_invoice_line_agent_unique_agent
 #: model:ir.model.constraint,message:commission_oca.constraint_commission_line_mixin_unique_agent
 #: model:ir.model.constraint,message:commission_oca.constraint_sale_order_line_agent_unique_agent
 msgid "You can only add one time each agent."
-msgstr "Sólo puede añadir una vez cada agente."
+msgstr ""
 
 #. module: commission_oca
 #: model_terms:ir.ui.view,arch_db:commission_oca.view_settled_wizard
 msgid "or"
-msgstr "o"
-
-#~ msgid "SMS Delivery error"
-#~ msgstr "Error en la entrega de sms"
-
-#~ msgid "Last Modified on"
-#~ msgstr "??ltima Modificaci??n el"
-
-#~ msgid "Main Attachment"
-#~ msgstr "Archivo Adjunto Principal"
-
-#~ msgid "Gross Amount"
-#~ msgstr "Importe Bruto"
-
-#~ msgid "Net Amount"
-#~ msgstr "Importe Neto"
+msgstr ""
