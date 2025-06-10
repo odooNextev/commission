@@ -17,6 +17,7 @@ setuptools.setup(
         'odoo-addon-sale_commission_agent_restrict>=16.0dev,<16.1dev',
         'odoo-addon-sale_commission_margin>=16.0dev,<16.1dev',
         'odoo-addon-sale_commission_product_criteria>=16.0dev,<16.1dev',
+        'odoo-addon-sale_commission_product_criteria_country>=16.0dev,<16.1dev',
         'odoo-addon-sale_commission_product_criteria_discount>=16.0dev,<16.1dev',
         'odoo-addon-sale_commission_product_criteria_domain>=16.0dev,<16.1dev',
         'odoo-addon-sale_commission_salesman>=16.0dev,<16.1dev',
