@@ -11,6 +11,9 @@
                     name="decoration-danger"
                 >state == 'except_invoice'</attribute>
             </tree>
+            <field name="settlement_type" position="after">
+                <field name="commission_grouped_by" />
+            </field>
         </field>
     </record>
     <record model="ir.ui.view" id="view_settlement_form">
@@ -41,6 +44,7 @@
                     attrs="{'invisible': [('state', '!=', 'invoiced')]}"
                     groups="account.group_account_invoice"
                 />
+                <field name="commission_grouped_by" />
             </field>
             <xpath
                 expr="//field[@name='line_ids']/tree/field[@name='date']"

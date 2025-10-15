@@ -23,6 +23,24 @@ class TestAccountCommission(TestCommissionBase):
             [("type", "=", "purchase"), ("company_id", "=", cls.company.id)], limit=1
         )
         cls.commission_net_paid.write({"invoice_state": "paid"})
+        cls.commission_net_paid_date = cls.commission_model.create(
+            {
+                "name": "10% fixed commission (Net amount) - Invoice Based -Payment Date",
+                "fix_qty": 10.0,
+                "amount_base_type": "net_amount",
+                "invoice_state": "paid",
+                "settled_dates_based_on": "payment",
+            }
+        )
+        cls.agent_monthly_payment_date = cls.res_partner_model.create(
+            {
+                "name": "Test Agent Payment - Monthly",
+                "agent": True,
+                "settlement": "monthly",
+                "lang": "en_US",
+                "commission_id": cls.commission_net_paid_date.id,
+            }
+        )
         cls.commission_net_invoice = cls.commission_model.create(
             {
                 "name": "10% fixed commission (Net amount) - Invoice Based",
@@ -724,3 +742,30 @@ class TestAccountCommission(TestCommissionBase):
         settlements = self.settle_model.search([("state", "=", "settled")])
         self.assertEqual(1, len(settlements))
         self.assertEqual(1, len(settlements.line_ids))
+
+    def test_groupby_payment_date_settlement(self):
+        """
+        Two invoices paid in 2 differents agent periods, with commission
+        grouped by payment date it will generate one settlement with two lines
+        """
+        date = fields.Date.today()
+
+        invoice_after_cutoff = self._create_invoice(
+            self.agent_monthly_payment_date,
+            self.commission_net_paid,
+            date=date - relativedelta(months=3),
+        )
+        invoice_after_cutoff.invoice_line_ids.agent_ids._compute_amount()
+        invoice = self._create_invoice(
+            self.agent_monthly_payment_date,
+            self.commission_net_paid,
+            date=date - relativedelta(months=2),
+        )
+        invoice.invoice_line_ids.agent_ids._compute_amount()
+        (invoice_after_cutoff + invoice).action_post()
+        self._register_payment(invoice_after_cutoff, date)
+        self._register_payment(invoice, date)
+        self._settle_agent_invoice(self.agent_monthly_payment_date, 1)
+        settlements = self.settle_model.search([("state", "=", "settled")])
+        self.assertEqual(1, len(settlements))
+        self.assertEqual(2, len(settlements.line_ids))

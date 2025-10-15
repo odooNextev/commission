@@ -14,3 +14,8 @@ class Commission(models.Model):
         "* 'Invoice Based': Commissions are settled when the invoice is issued.\n"
         "* 'Payment Based': Commissions are settled when the invoice is paid (or refunded).",
     )
+    settled_dates_based_on = fields.Selection(
+        [("inv", "Invoice Date"), ("payment", "Payment Date")],
+        default="inv",
+        help="Select the date to use for settling the commissions:\n",
+    )

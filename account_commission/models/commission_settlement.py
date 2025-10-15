@@ -34,6 +34,13 @@ class CommissionSettlement(models.Model):
         comodel_name="account.move",
         compute="_compute_invoice_id",
     )
+    commission_grouped_by = fields.Selection(
+        related="agent_id.commission_id.settled_dates_based_on",
+        string="Commission By",
+        help="Shows the field by which the commissions have been grouped.",
+        store=True,
+        readonly=True,
+    )
 
     def _compute_can_edit(self):
         """Make settlements coming from invoice lines to not be editable."""
