@@ -115,6 +115,10 @@ class CommissionMakeSettle(models.TransientModel):
     def _agent_lines_sorted(self, agent_line):
         return agent_line.company_id.id, agent_line.currency_id.id
 
+    def get_period_date(self, line):
+        """Get the date to use for period calculation."""
+        return line.invoice_date
+
     def action_settle(self):
         self.ensure_one()
         settlement_obj = self.env["commission.settlement"]
@@ -145,8 +149,9 @@ class CommissionMakeSettle(models.TransientModel):
                     pos += 1
                     if line._skip_settlement():
                         continue
-                    if line.invoice_date > sett_to:
-                        sett_from = self._get_period_start(agent, line.invoice_date)
+                    date_to_compare = self.get_period_date(line)
+                    if date_to_compare > sett_to:
+                        sett_from = self._get_period_start(agent, date_to_compare)
                         sett_to = self._get_next_period_date(agent, sett_from)
                         sett_to -= timedelta(days=1)
                         settlement = self._get_settlement(
